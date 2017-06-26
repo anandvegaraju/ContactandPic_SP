@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">ContactandPic_SP</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string-array name="Names">
+        <item>
+            <item>Anand</item>
+            <item>9483526746</item>
+        </item>
+        <item>
+            <item>David</item>
+            <item>9999699543</item>
+        </item>
+        <item>
+            <item>Chris</item>
+            <item>1234567890</item>
+        </item>
+        <item>
+            <item>Nolan</item>
+            <item>0112358145</item>
+        </item>
+        <item>
+            <item>David</item>
+            <item>9488626476</item>
+        </item>
+        <item>
+            <item>Fincher</item>
+            <item>8452056934</item>
+        </item>
+        <item>
+            <item>Tarantino</item>
+            <item>5555599999</item>
+        </item>
+        <item>
+            <item>Geoff</item>
+            <item>4545454545</item>
+        </item>
+        <item>
+            <item>Anand</item>
+            <item>9483526746</item>
+        </item><item>
+            <item>Anand</item>
+            <item>9483526746</item>
+        </item><item>
+            <item>fjvberje</item>
+            <item>5947254968</item>
+        </item><item>
+            <item>frgjrng</item>
+            <item>4843374899</item>
+        </item><item>
+            <item>fvjnfjg</item>
+            <item>4584584588</item>
+        </item><item>
+            <item>fbggrg</item>
+            <item>3432545453</item>
+        </item><item>
+            <item>wjfej</item>
+            <item>5738164859</item>
+        </item><item>
+            <item>davud</item>
+            <item>4956284758</item>
+        </item><item>
+            <item>rgklergn</item>
+            <item>5726358574</item>
+        </item><item>
+            <item>rfgljner</item>
+            <item>6383675959</item>
+        </item><item>
+            <item>eglenr</item>
+            <item>4966626494</item>
+        </item><item>
+            <item>glnrkg</item>
+            <item>4543665555</item>
+        </item><item>
+            <item>lgnerkg</item>
+            <item>9483545446</item>
+        </item><item>
+            <item>ergkger</item>
+            <item>4836395736</item>
+        </item><item>
+            <item>isuhef</item>
+            <item>3883737377</item>
+        </item>
+    </string-array>
+
+</resources>

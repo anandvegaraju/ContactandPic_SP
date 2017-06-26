@@ -7,4 +7,5 @@
     android:divider="@color/colorPrimary"
     android:textFilterEnabled="false">
 
+
 </ListView>

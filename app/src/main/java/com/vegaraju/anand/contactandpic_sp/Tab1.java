@@ -34,9 +34,7 @@ import static com.vegaraju.anand.contactandpic_sp.R.id.list1;
 public class Tab1 extends ListFragment {
     private ListView mListView;
 
-    ArrayList<String> contactList;
-    Cursor cursor;
-    int counter;
+
 
     @Nullable
     @Override
@@ -46,22 +44,7 @@ public class Tab1 extends ListFragment {
 
         mListView = (ListView) rootview.findViewById(R.id.list1);
 
-        List<String> a = new ArrayList<String>();
 
-        Cursor phones = getActivity().getApplicationContext().getContentResolver().query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI, null,null,null, null);
-        while (phones.moveToNext())
-        {
-            String name=phones.getString(phones.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
-            String phoneNumber = phones.getString(phones.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
-            a.add(name);
-            a.add(phoneNumber);
-
-        }
-        phones.close();
-
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>( getActivity(),  android.R.layout.simple_list_item_1, a );
-
-        mListView.setAdapter(arrayAdapter);
 
         return rootview;
 
@@ -81,6 +64,7 @@ public class Tab1 extends ListFragment {
             String phoneNumber = phones.getString(phones.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
             a.add(name);
             a.add(phoneNumber);
+            a.add("---------------------------------------------------------------------");
 
         }
         phones.close();

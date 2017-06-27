@@ -5,11 +5,12 @@ android {
     buildToolsVersion "26.0.0"
     defaultConfig {
         applicationId "com.vegaraju.anand.contactandpic_sp"
-        minSdkVersion 21
-        targetSdkVersion 25
+        minSdkVersion 19
+        targetSdkVersion 20
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
     }
     buildTypes {
         release {
